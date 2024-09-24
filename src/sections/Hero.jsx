@@ -27,7 +27,7 @@ const Hero = () => {
           Building Engaging, Inspiring Websites
         </p>
       </div>
-      <div className="w-full h-full absolute inset-0 ">
+      <div className="w-full h-full absolute inset-0 mt-0 lg:mt-11">
         {/* absolute remains    */}
         {/* <Leva /> */}
         <Canvas className="w-full h-full">
@@ -54,7 +54,7 @@ const Hero = () => {
           </Suspense>
         </Canvas>
       </div>
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space ">
         <a href="#about" className="w-fit">
           <Button
             name="Let's work together"
