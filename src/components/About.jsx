@@ -47,7 +47,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                "I specialize in modern frameworks and tools that enable me to
+                I specialize in modern frameworks and tools that enable me to
                 build robust and responsive web applications.
               </p>
             </div>
