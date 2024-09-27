@@ -197,43 +197,38 @@ export const myProjects = [
       },
     ],
   },
-  // {
-  //   title: "Imaginify - AI Photo Manipulation App",
-  //   desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-  //   subdesc:
-  //     "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-  //   href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-  //   texture: "/textures/project/project5.mp4",
-  //   logo: "/assets/project-logo5.png",
-  //   logoStyle: {
-  //     backgroundColor: "#1C1A43",
-  //     border: "0.2px solid #252262",
-  //     boxShadow: "0px 0px 60px 0px #635BFF4D",
-  //   },
-  //   spotlight: "/assets/spotlight5.png",
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: "React.js",
-  //       path: "/assets/react.svg",
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "TailwindCSS",
-  //       path: "assets/tailwindcss.png",
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "TypeScript",
-  //       path: "/assets/typescript.png",
-  //     },
-  //     {
-  //       id: 4,
-  //       name: "Framer Motion",
-  //       path: "/assets/framer.png",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Game Hub",
+    desc: "GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more.",
+    subdesc:
+      "Built with React and Shadcn, GameHub offers a sleek and dynamic user interface, enabling seamless navigation and game discovery.",
+    href: "https://game-hub-tau-topaz-62.vercel.app/",
+    texture: "/textures/project/game.webm",
+    logo: "/assets/logo.webp",
+    logoStyle: {
+      backgroundColor: "#0E1F38",
+      border: "0.2px solid #0E2D58",
+      boxShadow: "0px 0px 60px 0px #2F67B64D",
+    },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "shadcn",
+        path: "assets/shadcn.jpeg",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
