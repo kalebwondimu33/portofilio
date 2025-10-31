@@ -269,6 +269,16 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: "XGENIA",
+    pos: "Software Engineer",
+    duration: "03/2024 - 11/2025",
+    title:
+      "XGENIA is an AI Development Studio revolutionizing the iGaming industry through no-code and AI-driven game creation tools. The company enables rapid development of online casino and slot games using generative AI and automation, helping operators and developers create, test, and deploy products efficiently while maintaining compliance with industry standards.",
+    icon: "/assets/xgenia.png",
+    animation: "victory",
+  },
+  {
+    id: 2,
     name: "Up Work",
     pos: "Freelance",
     duration: "07/2024 - Present",
@@ -278,20 +288,20 @@ export const workExperiences = [
     animation: "victory",
   },
   {
-    id: 2,
+    id: 3,
     name: "Eskalate",
     pos: "Web Developer",
-    duration: "07/2024 - Present",
+    duration: "02/2023 - 04/2023",
     title:
       "Eskalate is a pioneering platform dedicated to empowering businesses with the brilliance of Africa's tech talent. It serves as the vital link between highly skilled African developers and forward-thinking companies seeking exceptional expertise.",
     icon: "/assets/theeskalate_logo.jpeg",
     animation: "clapping",
   },
   {
-    id: 3,
+    id: 4,
     name: "A2sv",
     pos: "Competitive Programmer and Python Developer",
-    duration: "11/2023 - Present",
+    duration: "01/2023 - 01/2024",
     title:
       "A2SV upskills high-potential university students, connecting them with opportunities at top tech companies around the world, and creating digital solutions to urgent problems in their home countries.",
     icon: "/assets/a2sv.jpeg",
