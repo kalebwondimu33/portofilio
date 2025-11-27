@@ -1,4 +1,6 @@
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  
   return (
     <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
       <div className="text-white-500 flex gap-2">
@@ -28,7 +30,7 @@ const Footer = () => {
       </div>
 
       <p className="text-white-500">
-        © 2024 kaleb Wondimu. All rights reserved.
+        © {currentYear} kaleb Wondimu. All rights reserved.
       </p>
     </footer>
   );
